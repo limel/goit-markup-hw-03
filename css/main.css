@@ -1,0 +1,60 @@
+:root {
+  --text-color: rgb(98, 98, 98);
+  --grey-color: rgb(180, 173, 158);
+  --active-color: rgb(3, 169, 244);
+  --primary-font-stack: "Playfair Display", sans-serif;
+  --category-font: "Ubuntu", sans-serif;
+}
+
+body {
+  font-family: var(--primary-font-stack);
+}
+
+/* color */
+
+.menu-item-link,
+.discription,
+.title-articl,
+.load-more-button {
+  color: var(--text-color);
+}
+/* list style */
+.menu-navigation {
+  list-style: none;
+}
+
+.blog-articls {
+  list-style: none;
+}
+/* site navigation  */
+.menu-navigation .menu-item .menu-item-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* main content */
+.title-articl {
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.discription {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.category {
+  font-size: 14px;
+  line-height: 1.2;
+  font-family: var(--category-font);
+  color: var(--grey-color);
+  text-transform: uppercase;
+}
+
+.load-more-button {
+  font-size: 20px;
+  line-height: 1.2;
+  text-decoration: none;
+}
